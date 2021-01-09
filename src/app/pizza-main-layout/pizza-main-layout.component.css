@@ -1,0 +1,49 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.pizza-container {
+  position: relative;
+  top: 10;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #eee;
+  min-height: 500px;
+}
+
+.pizza-sidenav {
+  padding-top: 20px !important;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+mat-slider {
+  width: 300px;
+}
+
+.pizza-list {
+  display: inline-block;
+  position: relative;
+  top: -65px;
+  left: 0px;
+}
+
+.pizza-card {
+  max-width: 800px;
+  margin: 2px;
+  border-bottom: 1px solid #c4c4d2;
+}
+
+.pizza-card-bottom {
+  box-sizing: border-box;
+  width: 35%;
+  display: inline-block;
+  text-align: right;
+}
+
+.mat-button-toggle-checked {
+  background-color: #a0c2e4 !important;
+}
+
+.pizza-card-header {
+  justify-content: center !important;
+}
